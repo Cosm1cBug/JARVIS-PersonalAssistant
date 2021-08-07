@@ -228,7 +228,7 @@ while True:
             speak("hello, how are you?")
 
         elif "what is your name" in query:     
-            speak("My name is friday")
+            speak("My name is jarvis")
 
         #elif "make a note" or "take a note" or "create a reminder" in query:  
             #speak("what do you want me to remember?")
