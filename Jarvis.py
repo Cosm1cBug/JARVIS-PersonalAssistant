@@ -28,7 +28,7 @@ from colors import color
 
 
 def banner():  
-    ascii_banner = pyfiglet.figlet_format("F . R . I . D . A . Y")
+    ascii_banner = pyfiglet.figlet_format("J.A.R.V.I.S")
     print (green(ascii_banner))
 
 engine = pyttsx3.init()
@@ -185,10 +185,7 @@ def Introduction():
            
 
 def Creator():
-    speak("MAK is an extra-ordinary person ,"
-    "He has a passion for Robotics, Artificial Intelligence and Machine Learning ,"
-    "He is very co-operative ,"
-    "If you are facing any problem regarding the 'Jarvis', He will be glad to help you ")
+    speak("Krypt-On created me")
 
 
 def get_audio():
@@ -214,7 +211,7 @@ if __name__ == "__main__":
     Introduction()
     #wishme()
 
-wake = "friday"
+wake = "jarvis"
 
 while True:  
     print("Listening...")
